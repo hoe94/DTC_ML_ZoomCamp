@@ -1,0 +1,10 @@
+service: "service.py:svc"
+labels:
+    team: mlops-team
+    project: homework-week7
+include:
+- ".py"
+
+python:
+    packages:
+        - sklearn
